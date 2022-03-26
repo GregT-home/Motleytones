@@ -27,9 +27,10 @@ Rails.application.configure do
   end
 
   # Configure Action Mailer
+  # Delivery Errors:
+  #   false = ignore bad email addresses and do not raise email delivery errors.
+  #   true  = raise errors if the email server is also configured for immediate delivery
   config.action_mailer.raise_delivery_errors = true
-  # false = don't care if the mailer can't send
-  # config.action_mailer.raise_delivery_errors = false
   config.action_mailer.perform_caching = false
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
 
