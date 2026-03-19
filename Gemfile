@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'ahoy_matey', '~> 2.0'
-gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.22'
 gem 'coffee-rails'
 gem 'csv', '~> 3.0'
 gem 'devise', '~> 4.6'
